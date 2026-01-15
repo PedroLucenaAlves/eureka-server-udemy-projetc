@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eurekaserverudemy
+
+server:
+  port: 8761 #porta padrao do eureka
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false #gateway fará o registro
